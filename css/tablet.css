@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a :visited {
+    padding: 10px;
+    margin-right: 1.5rem;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #target {
+    font-size: 16px;
+  }
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project-border {
+    font-size: 14px;
+    padding: 10px 4px !important;
+  }
+  .project-border span {
+    margin-right: 5px !important;
+  }
+}
